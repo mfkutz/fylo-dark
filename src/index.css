@@ -1,0 +1,54 @@
+:root {
+    /* ### Primary */
+
+    --Dark-Blue-intro: hsl(217, 28%, 15%);
+    --Dark-Blue-main: hsl(218, 28%, 13%);
+    --Dark-Blue-footer: hsl(216, 53%, 9%);
+    --Dark-Blue-testimonials: hsl(219, 30%, 18%);
+
+    /* ### Accent */
+
+    --Cyan-inside-gradient: hsl(176, 68%, 64%);
+    --Blue-inside-gradient: hsl(198, 60%, 50%);
+    --Light-Red-error: hsl(0, 100%, 63%);
+
+    --White: hsl(0, 0%, 100%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .wrapper {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+
+    .anim {
+        position: relative;
+    }
+
+    .anim::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        height: 1px;
+        background-color: currentColor;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform 0.2s ease;
+    }
+
+    .anim:hover::after {
+        transform: scaleX(1);
+    }
+
+}
