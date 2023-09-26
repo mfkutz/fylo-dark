@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 
 const Hero = () => {
   return (
-    <div className='bg-Dark-Blue-intro flex flex-col items-center '>
+    <div className='bg-DarkBlueintro flex flex-col items-center '>
 
       <Navbar />
 

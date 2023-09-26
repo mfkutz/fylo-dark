@@ -5,13 +5,15 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import Section from './Section'
 import Team from './Team'
+import Info from './Info'
 
 export {
-    Features,
-    Footer,
-    Form,
-    Hero,
     Navbar,
+    Hero,
+    Info,
+    Features,
     Section,
-    Team
+    Team,
+    Form,
+    Footer,
 }

@@ -10,15 +10,13 @@ const Navbar = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       animate={{ y: 0, transition: { duration: 1.1 } }}
-
     >
       <img
         src={logo}
         alt="logo"
         className='w-[140px] mb-4 md:mb-0 lg:w-[176px] '
       />
-
-      <ul className='flex lg:gap-[3.6rem] gap-[2rem] text-[white] text-[.96rem] font-Ral'>
+      <ul className='flex lg:gap-[3.6rem] gap-[3rem] text-[white] text-[.96rem] font-Ral'>
         <li className='tracking-[.03rem] anim'><a href="">Features</a></li>
         <li className='tracking-[.03rem] anim'><a href="">Team</a></li>
         <li className='tracking-[.03rem] anim'><a href="">Sign In</a></li>

@@ -5,18 +5,29 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      'Dark-Blue-intro': 'hsl(217, 28%, 15%)',
-      'Dark-Blue-main': 'hsl(218, 28%, 13%)',
-      'Dark-Blue-footer': 'hsl(216, 53%, 9%)',
-      'Dark-Blue-testimonials': 'hsl(219, 30%, 18%)',
-      'White': 'hsl(0, 0%, 100%)'
+    extend: {
+
+      colors: {
+        'DarkBlueintro': '#1c2431',
+        'DarkBlueMain': '#181f2a',
+        'DarkBlueFooter': '#0b1523',
+        'DarkBlueTestimonials': '#202a3c',
+        'CyanInsideGradient': '#65e2d9',
+        'BlueInsideGradient': '#339ecc',
+        'LightRedError': '#ff4242',
+        'White-P': '#ffffff'
+      },
+      fontFamily: {
+        'Ral': ['Raleway', 'sans-serif'],
+        'Ope': ['Open Sans', 'sans-serif']
+      },
+      backgroundImage: {
+        'bgDesktop': "url('/src/utils/images/bg-curvy-desktop.svg')",
+        'bgMobile': "url('/src/utils/images/bg-curvy-mobile.svg')",
+      }
+
+
     },
-    fontFamily: {
-      'Ral': ['Raleway', 'sans-serif'],
-      'Ope': ['Open Sans', 'sans-serif']
-    }
   },
   plugins: [],
 }

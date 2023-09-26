@@ -27,7 +27,6 @@
     .wrapper {
         max-width: 1356px;
         margin: 0 auto;
-        /* background: red; */
     }
 
 
@@ -52,4 +51,24 @@
         transform: scaleX(1);
     }
 
+}
+
+
+
+.bgCurve::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: url(./utils/images/bg-curvy-desktop.svg) no-repeat bottom/100% 100%;
+    height: 26rem;
+    z-index: 0;
+    top: -24.7rem;
+}
+
+@media (max-width: 1024px) {
+
+    .bgCurve::before {
+        background: url(./utils/images/bg-curvy-mobile.svg)no-repeat bottom/100% 40%;
+        top: -25.8rem;
+    }
 }
