@@ -1,19 +1,19 @@
 [
     {
         "paragraph": " Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-        "image": "../public/profile-1.jpg",
+        "image": "profile-1.jpg",
         "name": "Satish Patel",
         "position": "Founder & CEO, Huddle"
     },
     {
         "paragraph": " Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-        "image": "public/profile-2.jpg",
+        "image": "profile-2.jpg",
         "name": "Bruce McKenzie",
         "position": "Founder & CEO, Huddle"
     },
     {
         "paragraph": " Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-        "image": "public/profile-3.jpg",
+        "image": "profile-3.jpg",
         "name": "Iva Boyd",
         "position": "Founder & CEO, Huddle"
     }
