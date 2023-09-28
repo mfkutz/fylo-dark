@@ -1,4 +1,4 @@
-import { Features, Hero, Info } from "../components"
+import { Features, Hero, Info, Section, Team } from "../components"
 
 const Home = () => {
     return (
@@ -8,6 +8,8 @@ const Home = () => {
             <div className="bgCurve relative ">
                 <Features />
             </div>
+            <Section />
+            <Team />
         </>
     )
 }

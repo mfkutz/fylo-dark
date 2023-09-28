@@ -17,7 +17,7 @@ const Navbar = () => {
         className='w-[140px] mb-4 md:mb-0 lg:w-[176px] '
       />
       <ul className='flex lg:gap-[3.6rem] gap-[3rem] text-[white] text-[.96rem] font-Ral'>
-        <li className='tracking-[.03rem] anim'><a href="">Features</a></li>
+        <li className='tracking-[.03rem] anim'><a href="#features">Features</a></li>
         <li className='tracking-[.03rem] anim'><a href="">Team</a></li>
         <li className='tracking-[.03rem] anim'><a href="">Sign In</a></li>
       </ul>
