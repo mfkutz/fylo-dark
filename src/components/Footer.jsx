@@ -3,15 +3,16 @@ import { RiFacebookFill, RiTwitterFill, RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className="bg-DarkBlueFooter flex min-h-[30rem] pt-[12.8rem] justify-center px-[25px]">
+    <div className="bg-DarkBlueFooter flex min-h-[30rem] pt-[12.5rem] justify-center px-[25px] lg:pb-[5.5rem] ">
 
-      <div className='max-w-[1240px] w-full'>
-        <img src={logo} alt="Fylo" className='mb-[2.2rem]' />
+      <div className='max-w-[1240px] w-full lg:ml-[2.7rem]'>
+        <img src={logo} alt="Fylo" className='mb-[2.2rem] flex justify-start' />
 
-        <div className='flex flex-wrap gap-[3rem]'>
+        <div className='flex flex-wrap w-full justify-between '>
 
-          <div className='flex gap-11 flex-col md:flex-row lg:flex-row'>
-            <div className=''>
+          <div className='flex max-w-[630px] w-full  justify-between flex-col md:flex-row lg:flex-row '>
+
+            <div className='mb-[1.2rem] lg:mb-0'>
               <div className='flex items-start gap-[1.6rem]'>
                 <img src={iconLocation} alt="" />
                 <p className='text-White-P max-w-[323px]'>
@@ -19,11 +20,10 @@ const Footer = () => {
                   dolore magna aliqua
                 </p>
               </div>
-
             </div>
 
             <div>
-              <div className='flex items-center gap-6 mb-3'>
+              <div className='flex items-center gap-6 lg:mb-[1.2rem] mb-[1rem]'>
                 <img src={iconPhone} alt="" />
                 <span className='text-White-P text-[0.9rem]'>+1-543-123-4567</span>
               </div>
@@ -36,25 +36,25 @@ const Footer = () => {
 
           </div>
 
-          <div className='flex gap-11 flex-col md:flex-row lg:flex-row'>
+
+          <div className='flex lg:gap-[4.8rem] gap-11 flex-col md:flex-row lg:flex-row lg:ml-[1.9rem] mt-[5rem] lg:mt-0 '>
 
             <ul className='flex flex-col text-White-P '>
-              <li className='mb-3'><a href="#" >About Us</a></li>
-              <li className='mb-3'><a href="#">Jobs</a></li>
-              <li className='mb-3'><a href="#">Press</a></li>
+              <li className='mb-[1rem]'><a href="#" >About Us</a></li>
+              <li className='mb-[1rem]'><a href="#">Jobs</a></li>
+              <li className='mb-[1rem]'><a href="#">Press</a></li>
               <li><a href="#">Blog</a></li>
             </ul>
 
-            <ul className='flex flex-col text-White-P'>
-              <li className='mb-3'><a href="#">Contact Us</a></li>
-              <li className='mb-3'><a href="#">Terms</a></li>
+            <ul className='flex flex-col text-White-P '>
+              <li className='mb-[1rem]'><a href="#">Contact Us</a></li>
+              <li className='mb-[1rem]'><a href="#">Terms</a></li>
               <li><a href="#">Privacy</a></li>
             </ul>
 
           </div>
-
-          <div className='flex lg:items-start justify-center w-full lg:w-auto mb-[3rem] lg:mb-0'>
-            <div className='flex gap-3'>
+          <div className='flex lg:items-start justify-center  w-full lg:w-auto mb-[3rem] lg:mb-0'>
+            <div className='flex gap-3 mt-[5rem] lg:mt-0'>
               <a
                 href="#"
                 target="_blank"
@@ -79,6 +79,7 @@ const Footer = () => {
 
             </div>
           </div>
+
 
         </div>
 
