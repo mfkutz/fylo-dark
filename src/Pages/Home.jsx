@@ -1,4 +1,4 @@
-import { Features, Hero, Info, Section, Team } from "../components"
+import { Features, Footer, Form, Hero, Info, Section, Team } from "../components"
 
 const Home = () => {
     return (
@@ -10,6 +10,8 @@ const Home = () => {
             </div>
             <Section />
             <Team />
+            <Form />
+            <Footer />
         </>
     )
 }
