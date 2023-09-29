@@ -11,7 +11,7 @@ const Info = () => {
                 you need, share and collaborate with friends family, and co-workers.
             </p>
 
-            <button className="text-White btn bg-gradient-to-r from-CyanInsideGradient to-BlueInsideGradient px-[6.1rem] py-[1rem] rounded-full text-White-P mt-[1.9rem] mb-[9rem] z-10">
+            <button className="text-White btn bg-gradient-to-r from-CyanInsideGradient to-BlueInsideGradient px-[6.1rem] py-[1rem] rounded-full text-White-P mt-[1.9rem] mb-[9rem] z-10 hover:from-[#8cdae4] hover:to-[#8cdae4]">
                 Get Started
             </button>
 

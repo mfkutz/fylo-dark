@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='max-w-[1240px] w-full lg:ml-[2.7rem]'>
         <img src={logo} alt="Fylo" className='mb-[2.2rem] flex justify-start' />
 
-        <div className='flex flex-wrap w-full justify-between '>
+        <div className='flex flex-wrap w-full justify-between gap-3 '>
 
           <div className='flex max-w-[630px] w-full  justify-between flex-col md:flex-row lg:flex-row '>
 
@@ -37,19 +37,19 @@ const Footer = () => {
           </div>
 
 
-          <div className='flex lg:gap-[4.8rem] gap-11 flex-col md:flex-row lg:flex-row lg:ml-[1.9rem] mt-[5rem] lg:mt-0 '>
+          <div className='flex lg:gap-[4.8rem] gap-11 flex-col md:flex-row lg:flex-row lg:ml-[1.9rem] mt-[5rem] md:mt-0 lg:mt-0 '>
 
             <ul className='flex flex-col text-White-P '>
-              <li className='mb-[1rem]'><a href="#" >About Us</a></li>
-              <li className='mb-[1rem]'><a href="#">Jobs</a></li>
-              <li className='mb-[1rem]'><a href="#">Press</a></li>
-              <li><a href="#">Blog</a></li>
+              <li className='mb-[1rem] shaD'><a href="#" >About Us</a></li>
+              <li className='mb-[1rem] shaD'><a href="#">Jobs</a></li>
+              <li className='mb-[1rem] shaD'><a href="#">Press</a></li>
+              <li><a href="#" className='shaD'>Blog</a></li>
             </ul>
 
             <ul className='flex flex-col text-White-P '>
-              <li className='mb-[1rem]'><a href="#">Contact Us</a></li>
-              <li className='mb-[1rem]'><a href="#">Terms</a></li>
-              <li><a href="#">Privacy</a></li>
+              <li className='mb-[1rem] shaD'><a href="#">Contact Us</a></li>
+              <li className='mb-[1rem] shaD'><a href="#">Terms</a></li>
+              <li><a href="#" className='shaD'>Privacy</a></li>
             </ul>
 
           </div>

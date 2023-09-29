@@ -17,7 +17,7 @@ const Form = () => {
             className="max-w-[30rem] w-full rounded-full px-8 py-[1rem] text-[0.8rem] "
             placeholder="email@example.com"
           />
-          <button className="text-White text-[0.9rem] font-bold font-Ral bg-gradient-to-r from-CyanInsideGradient to-BlueInsideGradient  rounded-full text-White-P lg:px-[1.95rem] max-w-[30rem] lg:max-w-none w-full lg:w-auto py-[0.9rem]">
+          <button className="text-White text-[0.9rem] font-bold font-Ral bg-gradient-to-r from-CyanInsideGradient to-BlueInsideGradient  rounded-full text-White-P lg:px-[1.95rem] max-w-[30rem] lg:max-w-none w-full lg:w-auto py-[0.9rem] hover:from-[#8cdae4] hover:to-[#8cdae4]">
             Get Started For Free
           </button>
         </form>

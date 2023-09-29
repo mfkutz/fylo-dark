@@ -51,6 +51,15 @@
         transform: scaleX(1);
     }
 
+    .shaD {
+        transition: text-shadow 0.3s;
+    }
+
+    .shaD:hover {
+        color: var(--Cyan-inside-gradient);
+        text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    }
+
 }
 
 .bgCurve::before {
