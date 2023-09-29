@@ -2,7 +2,7 @@ import { illustationStayProductive, iconArrow } from '../utils/images/index'
 
 const Section = () => {
   return (
-    <div className='bg-DarkBlueMain flex flex-wrap justify-center items-center gap-[4rem] pb-[11.1rem]'>
+    <div className='bg-DarkBlueMain flex flex-wrap justify-center items-center gap-[4rem] lg:pb-[11.1rem] pb-[7rem]'>
 
       <img src={illustationStayProductive} alt="productive" className='px-[25px] lg:px-0' />
       <div className='lg:pt-[2.9rem]'>

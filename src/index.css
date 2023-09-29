@@ -83,6 +83,18 @@
     display: none;
 }
 
+.icon::after {
+    content: '';
+    display: flex;
+    background: url(./utils/images/bg-quotes.png) no-repeat center;
+    position: absolute;
+    height: 197px;
+    width: 80px;
+    left: -22px;
+    top: -110px;
+}
+
+
 @media (max-width: 1024px) {
 
     .bgCurve::before {
