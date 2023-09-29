@@ -3,7 +3,7 @@ const Form = () => {
   return (
     <div className="bg-DarkBlueMain  flex justify-center pt-[9rem] h-[360px]  relative">
 
-      <div className="bg-DarkBlueintro max-w-[862px] shadow-2xl py-[2.4rem] absolute top-[12.6rem] px-8 lg:px-0 rounded-[10px] ml-[25px] mr-[25px]" >
+      <div className="bg-DarkBlueintro max-w-[862px] shadow-2xl py-[2.4rem] absolute lg:top-[12.6rem] px-8 lg:px-0 rounded-[10px] ml-[25px] mr-[25px]" >
         <h3 className="text-White-P text-center text-[1.2rem] md:text-[1.5rem] lg:text-[1.9rem]  font-Ral font-bold tracking-[1px] mb-4">
           Get early access today
         </h3>
