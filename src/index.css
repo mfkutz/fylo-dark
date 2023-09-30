@@ -60,6 +60,10 @@
         text-shadow: 0 0 10px rgba(255, 255, 255, 1);
     }
 
+    input:focus {
+        outline: none;
+    }
+
 }
 
 .bgCurve::before {
