@@ -7,16 +7,17 @@ const Cards = () => {
         hidden: { opacity: 0, y: 50 },
         visible: { opacity: 1, y: 0, transition: { delay: delay, duration: 0.5 } }
     })
+
     return (
         <>
             <div className="flex flex-wrap justify-center mt-7 lg:gap-[7rem] gap-[6rem] ">
 
                 <motion.div
                     className=" max-w-[350px] w-full flex flex-col items-center z-10 relative mx-[15px]"
-                    initial="hidden"
+                   /*  initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    variants={variants(0.6)}
+                    viewport={{ once: true }}
+                    variants={variants(0.6)} */
                 >
                     <img src={iconAccessAnywhere} alt="computers" className="mb-[1.6rem] absolute top-0" />
                     <h3 className=" text-White-P text-[1.2rem] font-Ral font-semibold tracking-wide mb-[0.52rem] pt-[6.4rem]">Access your files, anywhere</h3>
@@ -28,10 +29,10 @@ const Cards = () => {
 
                 <motion.div
                     className=" max-w-[380px] w-full flex flex-col items-center z-10 relative mx-[15px]"
-                    initial="hidden"
+                /*     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    variants={variants(0.6)}
+                    viewport={{ once: true }}
+                    variants={variants(0.6)} */
                 >
                     <img src={iconSecurity} alt="computers" className="mb-[1.6rem] absolute -top-1" />
                     <h3 className=" text-White-P text-[1.2rem] font-Ral font-semibold tracking-wide mb-[0.52rem] pt-[6.4rem]">Security you can trust</h3>
@@ -45,10 +46,10 @@ const Cards = () => {
 
             <div className="flex flex-wrap justify-center lg:gap-[8.3rem] mt-7 gap-[6rem]">
                 <motion.div className=" max-w-[360px] w-full flex flex-col items-center z-10 mx-[15px]"
-                    initial="hidden"
+                   /*  initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    variants={variants(0.6)}
+                    viewport={{ once: true }}
+                    variants={variants(0.6)} */
                 >
                     <img src={iconCollaboration} alt="computers" className="mb-[1.9rem]" />
                     <h3 className=" text-White-P text-[1.2rem] font-Ral font-semibold tracking-wide mb-[0.4rem]">Real-time collaboration</h3>
@@ -59,10 +60,10 @@ const Cards = () => {
                 </motion.div>
 
                 <motion.div className=" max-w-[350px] w-full flex flex-col items-center z-10 pt-1 mx-[15px]"
-                    initial="hidden"
+                   /*  initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    variants={variants(0.6)}
+                    viewport={{ once: true }}
+                    variants={variants(0.6)} */
                 >
                     <img src={iconAnyFile} alt="computers" className="mb-[2rem]" />
                     <h3 className=" text-White-P text-[1.2rem] font-Ral font-semibold tracking-wide mb-[0.4rem]">Store any type of file</h3>

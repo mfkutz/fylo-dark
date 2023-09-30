@@ -15,18 +15,17 @@ const Section = () => {
         src={illustationStayProductive}
         alt="productive"
         className='px-[25px] lg:px-0'
-        viewport={{ once: true, amount: 0.5 }}
-        initial="hidden"
+       /*  initial="hidden"
         whileInView="visible"
-
-        variants={variants(0.2)}
+        viewport={{ once: true }}
+        variants={variants(0.6)} */
       />
       <motion.div
         className='lg:pt-[2.6rem]'
-        initial="hidden"
+   /*      initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        variants={variants(0.2)}
+        viewport={{ once: true }}
+        variants={variants(0.6)} */
 
       >
         <h2 className=' max-w-[30rem] lg:text-[2.5rem] text-[1.2rem] text-White-P font-Ral font-semibold leading-[3.2rem] lg:mb-[1.15rem] mb-[0.3rem] px-[25px] lg:px-0 '>

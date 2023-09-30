@@ -10,10 +10,10 @@ const Team = () => {
   return (
     <motion.div
       className="bg-DarkBlueMain flex gap-10 justify-center flex-wrap "
-      initial="hidden"
+     /*  initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.5 }}
-      variants={variants(0.2)}
+      viewport={{ once: true, amount: 0.3 }}
+      variants={variants(0.6)} */
     >
       <TestimonialCard />
     </motion.div>

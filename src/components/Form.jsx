@@ -20,13 +20,13 @@ const Form = () => {
       <motion.div
         ref={ref}
         className="bg-DarkBlueintro max-w-[862px] shadow-2xl pt-[2.4rem] pb-[2.6rem] absolute lg:top-[12.6rem] px-8 lg:px-0 rounded-[10px] ml-[25px] mr-[25px]"
-        initial={{ opacity: 0, scale: 0.5 }}
+      /*   initial={{ opacity: 0, scale: 0.5 }}
         animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
         transition={{
           duration: 0.8,
           delay: 0.5,
           ease: [0, 0.71, 0.2, 1.01]
-        }}
+        }} */
       >
         <h3 className="text-White-P text-center text-[1.2rem] md:text-[1.5rem] lg:text-[1.9rem]  font-Ral font-bold tracking-[1px] mb-4 pt-[0.27rem]">
           Get early access today

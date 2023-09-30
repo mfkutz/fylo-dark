@@ -18,10 +18,10 @@ const Hero = () => {
         alt="intro dark"
         className='mt-[4.61rem] px-11'
 
-        initial="hidden"
+      /*   initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        variants={variants(0.3)}
+        viewport={{ once: true }}
+        variants={variants(0.3)} */
       />
     </div>
   )
