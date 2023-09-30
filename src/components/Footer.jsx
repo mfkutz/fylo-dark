@@ -3,7 +3,7 @@ import { RiFacebookFill, RiTwitterFill, RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className="bg-DarkBlueFooter flex min-h-[30rem] pt-[12.5rem] justify-center px-[25px] lg:pb-[5.5rem] ">
+    <div className="bg-DarkBlueFooter flex min-h-[30rem] pt-[12.5rem] justify-center px-[25px] lg:pb-[5.15rem] ">
 
       <div className='max-w-[1240px] w-full lg:ml-[2.7rem]'>
         <img src={logo} alt="Fylo" className='mb-[2.2rem] flex justify-start' />

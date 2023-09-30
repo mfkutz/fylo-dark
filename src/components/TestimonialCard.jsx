@@ -1,10 +1,13 @@
 import testimonials from '../utils/data/testimonials.json'
 
+
 const TestimonialCard = () => {
     return (
         <>
             {testimonials.map((item, index) => (
-                <div className={`bg-DarkBlueTestimonials max-w-[360px] w-full px-[28px] tracking-[0.8px] pt-[40px] pb-[23px] rounded-md mx-[25px] lg:mx-0 relative  ${index === 0 ? "icon" : null} `} key={index}>
+                <div
+                    className={`bg-DarkBlueTestimonials max-w-[360px] w-full px-[28px] tracking-[0.8px] pt-[40px] pb-[23px] rounded-md mx-[25px] lg:mx-0 relative  ${index === 0 ? "icon" : null} `} key={index}
+                >
                     <p className='text-White-P lg:text-[0.83rem] text-[0.72rem] leading-[1.4rem] mb-[1.3rem]'>
                         {item.paragraph}
                     </p>

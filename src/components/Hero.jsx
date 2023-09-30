@@ -1,9 +1,13 @@
-import { logo, illustrationIntro } from '../utils/images/index'
+import { illustrationIntro } from '../utils/images/index'
 import { motion } from "framer-motion"
 import Navbar from './Navbar'
 
 
 const Hero = () => {
+  const variants = (delay) => ({
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { delay: delay, duration: 0.5 } }
+  })
   return (
     <div className='bg-DarkBlueintro flex flex-col items-center '>
 
@@ -14,10 +18,10 @@ const Hero = () => {
         alt="intro dark"
         className='mt-[4.61rem] px-11'
 
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        animate={{ y: 0, transition: { duration: 1.1 } }}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={variants(0.3)}
       />
     </div>
   )
