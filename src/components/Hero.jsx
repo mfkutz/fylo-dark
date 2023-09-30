@@ -17,11 +17,10 @@ const Hero = () => {
         src={illustrationIntro}
         alt="intro dark"
         className='mt-[4.61rem] px-11'
-
-      /*   initial="hidden"
+        initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        variants={variants(0.3)} */
+        variants={variants(0.3)}
       />
     </div>
   )

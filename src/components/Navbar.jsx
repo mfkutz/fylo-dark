@@ -11,10 +11,10 @@ const Navbar = () => {
   return (
     <motion.nav
       className='flex flex-col mt-10 items-center  md:flex-row md:justify-between md:items-center lg:items-center lg:justify-between wrapper w-full lg:mt-[4.55rem] px-[38px]'
-    /*   initial="hidden"
+      initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      variants={variants(0)} */
+      variants={variants(0)}
     >
       <img
         src={logo}
